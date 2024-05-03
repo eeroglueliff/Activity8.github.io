@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+form {
+    width: 630px;
+}
+div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+label {
+    flex: 1;
+    margin-right: 10px;
+}
+input {
+    flex: 2;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-right: 50px;
+    width: auto;
+    
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid black;
+}
+
+button {
+    width: 90px;
+    padding: 10px;
+    background-color: #4c5caf;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
